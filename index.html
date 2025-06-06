@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>دورة html</title>
+        <style>
+            table, th, td {
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+
+    <body DIR="rtl">
+        <h1>دورة HTML</h1><!--title-->
+        <img src="images.png" height="150" width="150" alt="html logo">
+        <h2>وصف الدورة</h2><!--sub title-->
+        <p><!--description-->
+            <b>HTML</b> هي طريقة لكتابة و هيكلة صفحات الويب،
+            ولا تعتبر <strong>HTML</strong> لغة برمجية بالمعنى الفعلي بل هي لغة وصفية،
+            أي أنها تستخدم لوصف الصفحة وتوزيع و ترتيب محتواها
+            من نصوص و روابط و صور و مقاطع فيديو وما إلى ذلك،
+            وهي المكون الرئيسي لأي موقع ويب،
+            تستخدم <em>HTML</em> ما يسمى بالوسوم أو <i>Tags</i>
+            وهي عبارة عن رموز لكل منها مهمة خاصة يقوم بها،
+            فمنها ما يقوم بعرض العنوان و منها ما يقوم بعرض النصوص
+            و منها ما يقوم بعرض الصور أو الروابط أو مقاطع الفيديو و هكذا،
+            و المتصفح يفهم هذه الرموز أو الوسوم و يعرضها بالشكل المحدد و المطلوب.
+        </p>
+        <p>
+            <b>مواعيد المحاضرات يوميا:</b><br>
+            من الساعة
+            8:00<sub>am</sub>
+            وحتى الساعة
+            11:00<sub>am</sub>
+        </p>
+        <p>
+            <b>المستويات لهذه الدورة:</b>
+            <br>
+            1<sup>st</sup> level: أساسيات html
+            <br>
+            2<sup>nd</sup> level: مفاهيم متقدمة في html
+        </p>
+        <hr>
+        <h2>أهداف هذه الدورة</h2>
+        <ol type="1">
+            <li>التعرف على مفهوم html</li>
+            <li>تعلم كل tag و الغرض من استخدامه</li>
+            <li>طرق إضافة النصوص، الفيديوهات، وغيرها من المحتويات المعتادة في صفحات الويب</li>
+        </ol>
+        <h2>متطلبات هذه الدورة</h2>
+        <ul type="circle">
+            <li>المتصفحات (غوغل كروم، فايرفوكس)</li>
+            <li>محرر النصوص</li>
+        </ul>
+        <hr>
+        <p>
+            للمرجع إضغط
+            <a href="https://satr.codes/courses">هنا</a>
+        </p>
+        <hr>
+        <video height="500" width="700" controls>
+            <source src="vid.mp4" type="video/mp4">
+            عذرا لايمكن عرض الفيديو
+        </video>
+        <br>
+        <audio controls>
+            <source src="ReelAudio-73701.mp3" type="audio/mp3">
+        </audio>
+        <hr>
+        <p>جدول أماكن المحاضرات</p>
+        <table>
+            <tr>
+                <th>اليوم</th>
+                <th>المكان</th>
+            </tr>
+            <tr>
+                <td>الأحد الإثنين</td>
+                <td>Class A</td>
+            </tr>
+            <tr>
+                <td>الثلاثاء الأربعاء</td>
+                <td>Class B</td>
+            </tr>
+            <tr>
+                <td colspan="2">الخميس عن بعد</td>
+            </tr>
+        </table>
+        <hr>
+        <form>
+            <label for="name">إسم المستخدم</label>
+            <input type="text" id="name">
+            <p>الجنس</p>
+            <input type="radio" id="male" name="gender">
+            <label for="male">ذكر</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">أنثى</label>
+            <input type="radio" id="prefernot to say" name="gender">
+            <label for="prefernot to say">أفضل عدم القول</label>
+            <p>من أين سمعت عن HTML?</p>
+            <input type="checkbox" id="freind" name="freind">
+            <label for="freind">صديق</label>
+            <br>
+            <input type="checkbox" id="books" name="books">
+            <label for="books">كتب</label>
+            <br>
+            <input type="checkbox" id="socialmedia" name="socialmedia">
+            <label for="socialmedia">وسائل التواصل الإجتماعي</label>
+            <br><br>
+            <label for="city">اختر مدينتك:</label>
+            <select id="city" name="city">
+                <option value="Algires">الجزائر</option>
+                <option value="Bejaia">بجاية</option>
+                <option value="Oran">وهران</option>
+            </select>
+            <br><br>
+            <input type="submit" value="انضمام">
+        </form>
+    </body>
+</html>
